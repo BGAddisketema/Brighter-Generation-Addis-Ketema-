@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact page</title>
+</head>
+<header>
+  <style>
+  * {
+    background: #27272B;
+    padding: 0;
+    margin: 0;
+  }
+    .conta {
+      text-align: center;
+      color: white;
+      padding-top: 10px;
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+.cont {
+      background: #27272B;
+      font-family: Arial, Helvetica, sans-serif, Georgia;
+      width: 90%;
+      height: auto%;
+} 
+button{
+  color : white;
+  background-color: #3E9D46;
+  font-size: 22px;
+  border-radius: 20px;
+  border-color: black;
+  padding: 13px 13px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+button:hover{
+     opacity: 80%
+     cursor: pointer;
+}
+input {
+      width: 90%;
+      margin-left: 10%;
+      font-size: 20px;
+      height: auto;
+      padding: 10px 10px;
+      border-radius: 10px;
+      border-color: black;
+      margin-bottom: 20px;
+      background-color: white;
+      font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+textarea { 
+      width: 90%;
+      background-color: white;
+      margin-left: 10%;
+      padding: 46px 12px;
+      border-radius: 10px;
+      border-color: black;
+      margin-bottom: 25px;
+      font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+input:focus-within {
+     outline: none;
+     border-color: #3E9D46;
+     border-width: 3px;
+}
+textarea:focus-within {
+     outline: none;
+     border-color: #3E9D46;
+     border-width: 3px;
+}
+  </style>
+</header>
+
+<body>
+  </div>
+ <form action= "https://formspree.io/f/xwkgkdnr"
+     method="POST"> 
+       <div class="cont">
+         <h1 class="conta">Contact</h1>
+         <input type="hidden" name="_template" value="box">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_blacklist" value="spammy pattern, banned term, phrase">
+          <input type="hidden" name="_autoresponse" value="Thank you for your Message"
+          <input type="text" value="" placeholder=" First Name" name = "name" autocomplete="off" required> <br>
+          <input type="text" value="" placeholder="Last Name" name="last" autocomplete="off" required> <br>
+          <input type="email" value="" placeholder="Email Address" name="Email" autocomplete="off" required> <br>
+          <input type="text" value="" placeholder="Subject" name= "Subject" autocomplete="off" required> <br>
+          <textarea name="text" id="texx" cols="60" rows="5" placeholder= "Type your message here" autocomplete="off" required/><br>
+        <button type= "submit" > Send Message </button>
+       </div>
+  </form> 
+</body>
+
+</html>

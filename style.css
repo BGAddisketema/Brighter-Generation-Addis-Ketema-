@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+header {
+    color: white;
+    background: #27272B;}
+ #led { font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+#hat { font-size: 20px;
+padding: 10px;
+  font-family: Arial, Helvetica, sans-serif, Georgia;
+} 
+img { display: block;
+margin: auto;
+padding-top: 10px;
+}
+h2 { font-family: Arial, Helvetica, sans-serif, Georgia;
+font-size: 40px;
+padding-top: 20px;
+}
+body {
+  margin: 0px;
+  padding: 0px; 
+ font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+
+ #our { color: purple; 
+ font-family: Arial, Helvetica, sans-serif, Georgia;
+ font-size: 20px;
+}
+.partenership { padding-left: 20px;
+color: #3E9D46;
+font-size: 25px;
+font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+.part {background: #EFEFEF;
+font-family: Arial, Helvetica, sans-serif, Georgia;
+ padding: 10px 0;
+}
+  #whatwe { color: black;
+  font-family: Arial, Helvetica, sans-serif, Georgia;
+  font-size: 20px;
+  }
+hr { color: blue;} 
+ .message{
+   height: 100px;
+   width: 500px;
+   font-family: Arial, Helvetica, sans-serif, Georgia;
+ }
+.ptext {
+   font-size: 20px;
+   margin: 20px;
+   font-family: Arial, Helvetica, sans-serif, Georgia;
+}
+
+.fund {
+  color: floralwhite;
+  background: #27272B;
+  font-family: Arial, Helvetica, sans-serif, Georgia;
+  padding: 10px 0 ;
+}
+footer {
+  background: #27272B;
+  color: white;
+  font-weight: none;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  text-align: center; 
+} 
+
+footer .icons i {
+  color: #afb6c7;
+  margin: 10px;
+}
+
+footer .icons i:hover  {
+  color: #fff;
+}
+ 
