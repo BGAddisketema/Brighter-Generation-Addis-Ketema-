@@ -76,3 +76,25 @@
   height: 100%;
   margin: 10px 0;
 }
+.fot ul{
+  list-style-type: none;
+  background-color: #27272B;;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+.fot a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.fot a:hover {
+background-color: #28292A
+}
+.fot li{
+  float: middle;
+  text-align: center;
+} 
