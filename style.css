@@ -75,4 +75,26 @@ footer .icons i {
 footer .icons i:hover  {
   color: #fff;
 }
+.fot ul{
+  list-style-type: none;
+  background-color: #27272B;;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+  text-align: center;
+}
+.fot a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+.fot a:hover {
+background-color: #28292A
+}
+.fot li{
+  float: left;
+  text-align: center;
+}
  
